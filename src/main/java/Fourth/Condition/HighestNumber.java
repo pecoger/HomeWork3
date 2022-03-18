@@ -7,10 +7,15 @@ public class HighestNumber {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Please enter your numbers:");
+        System.out.println("Please enter three numbers.");
 
+        System.out.println("Please enter the first number.");
         int first = scanner.nextInt();
+
+        System.out.println("Please enter the second number.");
         int second = scanner.nextInt();
+
+        System.out.println("Please enter the third number.");
         int third = scanner.nextInt();
 
         if ((first > second) && (first > third)){
